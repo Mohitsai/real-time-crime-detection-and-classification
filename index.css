@@ -1,0 +1,80 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+    color: green;
+    font-size: 1.2em;
+    
+}
+.MediaRecorder{
+    display: none;
+}  
+#id1 {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.rec1{
+    width:10%;
+      height :10%;
+}
+.rec{
+    width:30%;
+      height :30%;
+}
+    .item {
+      display: inline-block;
+      
+    }
+
+#start-vid-recording {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  #stop-vid-recording {
+    background-color:red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+.recording {
+    color: red;
+    background-color: rgb(241 211 211);
+    padding: 5px;
+    margin: 6px auto;
+    width: fit-content;
+}
+  
+video {
+    background-color: white;
+    display: block;
+    margin: 6px auto;
+    width: 580x;
+    height: 420px;
+}
+  
+audio {
+    display: block;
+    margin: 6px auto;
+}
+  
+a {
+    color: green;
+}
+h1{
+    color:darkolivegreen;
+}
+#myVidPlayer{
+    width: 25%;
+    height:25%;
+}

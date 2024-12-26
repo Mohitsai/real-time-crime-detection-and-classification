@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+	<title>Video Recorder</title>
+</head>
+
+<body>
+    <h1>CRIME DETECTION</h1>
+	<h2>LIVE FEED</h2>
+    <video id="myVidPlayer" controls muted autoplay></video>
+    <br>
+	<div class="display-none" id="vid-recorder">
+		
+		<div class="recording" id="vid-record-status">
+		</div>
+		<button type="button" id="start-vid-recording"
+			onclick="startRecording(this,
+			document.getElementById('stop-vid-recording'))">
+			Start video recording
+		</button>
+		<button type="button" id="stop-vid-recording"
+			disabled onclick="stopRecording(this,
+			document.getElementById('start-vid-recording'))">
+			Stop video recording
+		</button>
+        <div class="container">
+            <div class = "item">
+                <div class="div_ver">
+                    <video class = "rec1" autoplay id="web-cam-container"
+                    style="background-color: white;">
+                    Your browser doesn't support
+                    the video tag
+                </video>
+                </div>
+                <div id="id1">
+
+                </div>
+                
+            </div>
+            
+        </div>
+        
+	</div>
+
+	
+
+	<script src="index.js"></script>
+</body>
+
+</html>
